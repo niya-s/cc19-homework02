@@ -11,6 +11,7 @@ html {
     background-attachment: fixed;
     font-family: "Montserrat", serif;
     overflow: hidden;
+    user-select: none;
 }
 header {
     width: 100vw;
@@ -115,6 +116,9 @@ main {
     width: 100%;
     flex-direction: column;
 }
+main a {
+    text-decoration: none;
+}
 .center {
     position: absolute; /* or absolute */
     top: calc(50% - 4.5%);
@@ -142,13 +146,16 @@ main {
     font-weight: 500;
     color: white;
     background: linear-gradient(to bottom, #ff6036, #fd267a);
-    background-color: aqua;
     padding-top: 14px;
     border: none;
     border-radius: 50px;
     width: 180.53px;
     height: 50px;
     margin-top: 25px; 
+}
+.create:hover {
+    color: #e8e8e8;
+    background: linear-gradient(to bottom, #df5d3b, #df3577);
 }
 footer {
     display: inline-block;
