@@ -51,6 +51,11 @@ nav {
     padding: 8px;
     padding: 10px;
 }
+.menu a:hover {
+    color: #d4004f;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
 .menu ul {
     list-style-type: none;
     margin-left: 3px;
@@ -144,4 +149,13 @@ main {
     width: 180.53px;
     height: 50px;
     margin-top: 25px; 
+}
+footer {
+    display: inline-block;
+    position: absolute;
+    bottom: 11px;
+    right: 20px;
+    color: white;
+    font-size: 10.5px;
+    text-indent: 50px;
 }
